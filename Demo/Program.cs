@@ -6,7 +6,8 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] nombresPersonas = { "Juan", "Pedro", "Otro" } ;
+            Console.WriteLine(nombresPersonas[2]);
         }
     }
 }
